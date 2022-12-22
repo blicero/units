@@ -1,0 +1,24 @@
+# -*- mode: org; fill-column: 78; -*-
+# Time-stamp: <2022-12-22 19:52:34 krylon>
+#
+#+TAGS: optimize(o) refactor(r) bug(b) feature(f) architecture(a)
+#+TAGS: web(w) database(d) javascript(j)
+#+TODO: TODO(t) IMPLEMENT(i) TEST(e) RESEARCH(r) | DONE(d)
+#+TODO: MEDITATE(m) PLANNING(p) REFINE(n) | FAILED(f) CANCELLED(c) SUSPENDED(s)
+#+TODO: EXPERIMENT(x) |
+#+PRIORITIES: A G D
+
+* Units
+  A program to convert between units of measurement
+  On Twitter, I hang with many people from the US. They are good people, but
+  they use a system of measurement that is just repulsive, unlike the metric
+  system.
+  More importantly, it is something I'm not used to. When a US citizen says
+  it's 70 degrees outside, I have no clue what that means. In degrees Celsius,
+  70 degrees is very hot, approaching the boiling point of water.
+  So I want a program that I can enter some magnitude into and have it
+  converted back and forth into something I can understand. Both ways.
+  I am still not 100% sure if I want a GUI application or a web app?
+
+  [2022-12-22 Do 19:51] - I will try a web app first, for all the right
+  reasons.
