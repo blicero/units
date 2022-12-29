@@ -2,7 +2,7 @@
 // -*- coding: utf-8; mode: go; -*-
 // Created on 23. 12. 2015 by Benjamin Walkenhorst
 // (c) 2015 Benjamin Walkenhorst
-// Time-stamp: <2022-11-27 00:25:09 krylon>
+// Time-stamp: <2022-12-28 16:30:50 krylon>
 
 // Package common provides constants, variables and functions used
 // throughout the application.
@@ -18,7 +18,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/blicero/guang/logdomain"
+	"github.com/blicero/units/logdomain"
 	"github.com/hashicorp/logutils"
 	"github.com/odeke-em/go-uuid"
 )

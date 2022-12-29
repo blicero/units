@@ -2,7 +2,7 @@
 // -*- mode: go; coding: utf-8; -*-
 // Created on 01. 02. 2021 by Benjamin Walkenhorst
 // (c) 2021 Benjamin Walkenhorst
-// Time-stamp: <2022-11-10 22:44:05 krylon>
+// Time-stamp: <2022-12-29 21:18:09 krylon>
 
 // +build ignore
 
@@ -60,46 +60,24 @@ var orderedSteps = []string{
 var candidates = map[string][]string{
 	"generate": []string{
 		"common",
+		"convert/conversion",
 		"logdomain",
-		"backend/facility",
-		"data",
-		"database/query",
-		"xfr/xfrstatus",
 	},
 	"test": []string{
-		"backend",
-		"blacklist",
-		"data",
-		"database",
-		"frontend",
-		"generator",
-		"xfr",
+		"common",
+		"convert",
 	},
 	"vet": []string{
-		"backend",
-		"backend/facility",
-		"blacklist",
 		"common",
-		"data",
-		"database",
-		"database/query",
-		"frontend",
-		"generator",
+		"convert",
+		"convert/conversion",
 		"logdomain",
-		"xfr",
 	},
 	"lint": []string{
-		"backend",
-		"backend/facility",
-		"blacklist",
 		"common",
-		"data",
-		"database",
-		"database/query",
-		"frontend",
-		"generator",
+		"convert",
+		"convert/conversion",
 		"logdomain",
-		"xfr",
 	},
 }
 
